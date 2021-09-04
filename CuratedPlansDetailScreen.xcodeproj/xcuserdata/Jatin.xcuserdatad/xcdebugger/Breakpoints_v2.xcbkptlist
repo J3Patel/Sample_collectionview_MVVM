@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D91906FD-4E3A-4051-875C-0C015465B828"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17B6BCAC-96FB-4C26-87DE-797B15E40194"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CuratedPlansDetailScreen/CollectionVIewCell/ExcerciseInformationCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "toggleCollapse()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B609ED6D-7698-4C17-9C73-AA2AD61334BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CuratedPlansDetailScreen/ViewModels/ScrollableStickyHeaderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "fetchExcerciseDetail()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F966677-0BA2-44E8-AC7C-3B5B39DD4F38"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CuratedPlansDetailScreen/ViewModels/ScrollableStickyHeaderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "fetchExcerciseDetail()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6665B23C-865B-4252-8AF0-D48BCABD98C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CuratedPlansDetailScreen/ViewModels/ScrollableStickyHeaderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "fetchExcerciseDetail()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5ABBC3A4-8AFA-49B0-8C5A-47513A49B2DF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CuratedPlansDetailScreen/ViewModels/ScrollableStickyHeaderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "fetchExcerciseDetail()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1988384D-8CC6-4E9C-9F74-A74F45E49297"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CuratedPlansDetailScreen/ViewModels/ScrollableStickyHeaderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "parseDataModels(userPostsData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1988384D-8CC6-4E9C-9F74-A74F45E49297 - 4fd7deb8b0f01cd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CuratedPlansDetailScreen.ScrollableStickyHeaderViewModel.parseDataModels(userPostsData: CuratedPlansDetailScreen.UserPostsDataModel) -&gt; ()"
+                  moduleName = "CuratedPlansDetailScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jatin/Documents/Jatin/CuratedPlansDetailScreen/CuratedPlansDetailScreen/ViewModels/ScrollableStickyHeaderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "82">
+               </Location>
+               <Location
+                  uuid = "1988384D-8CC6-4E9C-9F74-A74F45E49297 - 62dd6ce1aab91a56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (CuratedPlansDetailScreen.Datum) -&gt; CuratedPlansDetailScreen.CollectionViewCellModel in CuratedPlansDetailScreen.ScrollableStickyHeaderViewModel.parseDataModels(userPostsData: CuratedPlansDetailScreen.UserPostsDataModel) -&gt; ()"
+                  moduleName = "CuratedPlansDetailScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jatin/Documents/Jatin/CuratedPlansDetailScreen/CuratedPlansDetailScreen/ViewModels/ScrollableStickyHeaderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "30">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

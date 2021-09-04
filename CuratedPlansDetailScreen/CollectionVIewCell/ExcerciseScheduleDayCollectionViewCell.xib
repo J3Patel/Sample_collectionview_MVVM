@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ExcerciseScheduleDayCollectionViewCell" customModule="CuratedPlansDetailScreen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="48" height="67"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="48" height="67"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6MU-df-dxX">
+                        <rect key="frame" x="0.0" y="19" width="48" height="48"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jg3-AJ-V9M">
+                                <rect key="frame" x="12" y="9" width="24" height="13"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                <color key="textColor" red="0.62745098039215685" green="0.63921568627450975" blue="0.69411764705882351" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhw-bm-zpY">
+                                <rect key="frame" x="19.5" y="25" width="9" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="rJ9-ZY-24K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91764705882352937" green="1" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Jg3-AJ-V9M" firstAttribute="top" secondItem="6MU-df-dxX" secondAttribute="top" constant="9" id="7Jx-mm-Qsd"/>
+                            <constraint firstItem="hhw-bm-zpY" firstAttribute="centerX" secondItem="6MU-df-dxX" secondAttribute="centerX" id="EEZ-Kz-G7b"/>
+                            <constraint firstAttribute="width" constant="48" id="FRO-Mc-Ehr"/>
+                            <constraint firstItem="Jg3-AJ-V9M" firstAttribute="centerX" secondItem="6MU-df-dxX" secondAttribute="centerX" id="GK3-S7-KcE"/>
+                            <constraint firstItem="hhw-bm-zpY" firstAttribute="top" secondItem="Jg3-AJ-V9M" secondAttribute="bottom" constant="3" id="HZO-vz-DQ4"/>
+                            <constraint firstAttribute="bottom" secondItem="hhw-bm-zpY" secondAttribute="bottom" constant="4" id="Iis-ke-ag8"/>
+                            <constraint firstAttribute="width" secondItem="6MU-df-dxX" secondAttribute="height" id="op7-wP-xOv"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scheedule_day_green_tick" translatesAutoresizingMaskIntoConstraints="NO" id="QWc-kU-qxG">
+                        <rect key="frame" x="14" y="5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="OcY-ZU-H3o"/>
+                            <constraint firstAttribute="width" secondItem="QWc-kU-qxG" secondAttribute="height" id="V7y-Eo-dgJ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="QWc-kU-qxG" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="NeT-Fc-HNR"/>
+                <constraint firstAttribute="trailing" secondItem="6MU-df-dxX" secondAttribute="trailing" id="PDq-gX-WMf"/>
+                <constraint firstItem="QWc-kU-qxG" firstAttribute="centerY" secondItem="6MU-df-dxX" secondAttribute="top" constant="-4" id="dl6-jm-gNZ"/>
+                <constraint firstItem="6MU-df-dxX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="e52-id-HnA"/>
+                <constraint firstAttribute="bottom" secondItem="6MU-df-dxX" secondAttribute="bottom" id="pa4-Q9-th2"/>
+            </constraints>
+            <size key="customSize" width="48" height="67"/>
+            <connections>
+                <outlet property="dayContainerView" destination="6MU-df-dxX" id="6U2-Xk-YOm"/>
+                <outlet property="dayLabel" destination="hhw-bm-zpY" id="bYf-bM-S1n"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="128.90625"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="scheedule_day_green_tick" width="20" height="20"/>
+    </resources>
+</document>

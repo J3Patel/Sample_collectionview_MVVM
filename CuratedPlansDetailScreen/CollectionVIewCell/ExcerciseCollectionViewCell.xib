@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ExcerciseCollectionViewCell" customModule="CuratedPlansDetailScreen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="290"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="290"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kPp-al-CUP">
+                        <rect key="frame" x="32" y="12" width="276" height="266"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygC-AU-YRa">
+                                <rect key="frame" x="24" y="40" width="228" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ygC-AU-YRa" secondAttribute="trailing" constant="24" id="CjD-1F-aCq"/>
+                            <constraint firstItem="ygC-AU-YRa" firstAttribute="leading" secondItem="kPp-al-CUP" secondAttribute="leading" constant="24" id="fys-mw-bSt"/>
+                            <constraint firstItem="ygC-AU-YRa" firstAttribute="centerX" secondItem="kPp-al-CUP" secondAttribute="centerX" id="qFW-kT-VBn"/>
+                            <constraint firstItem="ygC-AU-YRa" firstAttribute="top" secondItem="kPp-al-CUP" secondAttribute="top" constant="40" id="tUk-Um-6Qr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="kPp-al-CUP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="12" id="9gu-2k-8jd"/>
+                <constraint firstAttribute="trailing" secondItem="kPp-al-CUP" secondAttribute="trailing" constant="32" id="KHD-RK-Oka"/>
+                <constraint firstAttribute="bottom" secondItem="kPp-al-CUP" secondAttribute="bottom" constant="12" id="bIY-Oa-gT5"/>
+                <constraint firstItem="kPp-al-CUP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="32" id="lHt-5J-upX"/>
+            </constraints>
+            <size key="customSize" width="340" height="290"/>
+            <connections>
+                <outlet property="containerView" destination="kPp-al-CUP" id="V2v-Qv-4ZA"/>
+                <outlet property="testLabel" destination="ygC-AU-YRa" id="6UB-Im-uzq"/>
+            </connections>
+            <point key="canvasLocation" x="326.08695652173918" y="15.401785714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
